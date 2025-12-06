@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tahmina Mammadova Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> 
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+
+    <header>
+        <div class="logo hover-target">TH&#11212;M</div>
+        
+        <ul class="nav-list" id="navMenu">
+            <li><a href="#about" class="hover-target" onclick="toggleMenu()">About me</a></li>
+            <li><a href="#skills" class="hover-target" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects" class="hover-target" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" class="hover-target" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+
+        <div class="menu-controls">
+            <div class="theme-switch hover-target" onclick="toggleTheme()">
+                <i class="fas fa-sun" id="theme-icon"></i>
+            </div>
+            <div class="hamburger hover-target" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="hero-section">
+        <div class="orb"></div>
+        
+        <h1 class="hero-title" id="animatedText">DARK MOON</h1>
+        <div class="hero-subtitle">Web Designer & Developer</div>
+    </section>
+
+    <section class="chart-section" id="about">
+        
+        <div class="tree-line-vertical"></div>
+        <div class="tree-line-horizontal"></div>
+
+        <div class="about-container">
+            <div class="node-card about-bio-box hover-target">
+                <h2 class="node-title">About me</h2>
+                <p class="node-text">
+                     Hi! I am Tahmina Mammadova. I was born on February 25,2006 in Agstafa. In 2012, I started first grade at Sumgayit City No.41, and I graduated from the school in 2023. In the same year,I was admitted to Azerbaijan University. Now I am a third-year student.
+                    <br><br>My focus is on finding the perfect balance between tyhe mystery of the night and the transient elegance of spring. I turn complex problems into elegant code and intuitive interfaces.
+                </p>
+            </div>
+
+            <h3 class="skills-header">Skills // Tools of the Trade</h3>
+            <div class="skills-grid">
+                <div class="skill-node-card hover-target">HTML</div>
+                <div class="skill-node-card hover-target">JavaScript</div>
+                <div class="skill-node-card hover-target">CSS</div>
+                <div class="skill-node-card hover-target">Figma & Sketch</div>
+                <div class="skill-node-card hover-target">Git & GitHub</div>
+            </div>
+        </div>
+
+        <h3 class="node-title" style="margin-top: 40px; color: var(--gold-color);">// PROJECTS NODE //</h3>
+        
+        <div class="projects-grid" id="projects">
+            <div class="node-card project-box hover-target">
+                <h3 class="node-title">Project I</h3>
+                <p class="node-text">E-Commerce</p>
+                <div class="project-overlay">
+                    <button class="view-btn">EXPLORE</button> </div>
+            </div>
+             <div class="node-card project-box hover-target">
+                <h3 class="node-title">Project II</h3>
+                <p class="node-text">Mobile App</p>
+                <div class="project-overlay">
+                    <button class="view-btn">EXPLORE</button>
+                </div>
+            </div>
+             <div class="node-card project-box hover-target">
+                <h3 class="node-title">Project III</h3>
+                <p class="node-text">Design System</p>
+                <div class="project-overlay">
+                    <button class="view-btn">EXPLORE</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="node-card contact-box hover-target" id="contact">
+            <h3 class="node-title">CONTACT ME</h3>
+            <div class="contact-links">
+                <a href="#" class="contact-link hover-target"><i class="fas fa-envelope"></i> thmmmdova780@gmail.com</a>
+                <a href="https://github.com/thmmmdova780-coder" class="contact-link hover-target"><i class="fab fa-github"></i> thmmmdova780-coder</a>
+                <a href="#" class="contact-link hover-target"><i class="fab fa-linkedin"></i> təhminə-məmmədova</a>
+            </div>
+        </div>
+
+        <div class="golden-separator"></div>
+
+    </section>
+
+    <footer class="main-footer"> <p class="footer-quote">
+            "Seek the light, even in the darkest night."
+        </p>
+        <p class="copyright">
+            © 2025 Tahmina Mammadova Portfolio. All Rights Reserved.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
